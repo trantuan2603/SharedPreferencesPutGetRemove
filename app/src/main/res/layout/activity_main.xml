@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.landsoft.sharedpreferencesputgetremove.MainActivity">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Ghi"
+       android:layout_gravity="center_horizontal"
+       android:id="@+id/btn_write"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doc"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_read"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xoa"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_remove"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xoa tat ca du lieu"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_remove_all"
+        />
+</LinearLayout>
